@@ -38,8 +38,11 @@ header {
     font-weight: 500;
 }
 
+.menu-desktop{
+    margin-top: 26px;
+}
+
 ul {
-    padding-top: 15px;
     font-size: 20px;
     text-decoration: none;
 }
@@ -117,10 +120,12 @@ button:hover {
 .imagens {
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: 0px;
 }
 
 img {
-    margin: 40px 150px;
+    margin: 40px 190px;
     width: 88px;
     height: 88px;
 }
@@ -140,8 +145,8 @@ img {
     /* margin-bottom: 0px;
     padding-bottom: 0px; */
     /* width: 100%; */
-    width: calc(48% - 180px); /* 48% da largura disponível, menos 20px para o espaçamento */
-    margin-top: 50px;
+    width: calc(48% - 150px); /* 48% da largura disponível, menos 20px para o espaçamento */
+    margin-top: 66px;
 }
 
 .sobre-mim{
@@ -169,7 +174,7 @@ img {
     border-radius: 60px;
     position: relative;
     width: calc(60% - 20px);
-    margin-left: 400px;
+    margin-left: 370px;
     margin-top: -50px;
     /* position: relative; */
 }
@@ -226,7 +231,7 @@ img {
 }
 
 footer{
-    margin-top: 210px;
+    margin-top: 150px;
     background-color: #121F28;
     height: 300px;
 }
