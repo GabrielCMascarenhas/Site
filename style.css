@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #0D171F;
     font-family: 'Roboto';
@@ -12,24 +13,21 @@ body {
     margin-top: 30px;
 }
 
-.projetos-botao {
+.introducao a {
     text-decoration: none;
-    font-family: 'Poppins';
+    display: inline;
     color: #fff;
-    font-size: 40px;
-    font-weight: 500;
-    margin: 55px;
-    margin-bottom: -15px;
 }
-.projetos-botao h2{
-   padding-top: 47px;
-   padding-left: 5px;
+
+.projetos-botao h2 {
+    padding-top: 47px;
+    padding-left: 5px;
 }
 
 header {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    margin: 0 300px; 
+    margin: 0 300px;
 }
 
 .nome-destaque-header {
@@ -38,26 +36,26 @@ header {
     font-weight: 500;
 }
 
-.menu-desktop{
+.menu-desktop {
     margin-top: 26px;
 }
 
 ul {
     font-size: 20px;
-    text-decoration: none;
 }
 
-ul a {
-    text-decoration: none;
+.menu-desktop li {
+    display: inline;
+    padding-left: 64px;
 }
 
-li {
+.menu-desktop a {
     list-style-type: none;
     display: inline;
-    padding-left: 75px;
     color: #A9AAAB;
+    text-decoration: none;
+    display: inline;
 }
-
 
 h2 {
     font-size: 35px;
@@ -71,12 +69,13 @@ h1 {
     font-family: 'Poppins';
     font-weight: 700;
 }
+
 .introducao {
-    margin: 0 300px; 
+    margin: 0 300px;
     margin-top: 140px;
 }
 
-button{
+button {
     color: #fff;
     margin-right: 50px;
     margin-top: 50px;
@@ -89,20 +88,21 @@ button{
     margin-bottom: 130px;
 }
 
-.botao-contato{
+.botao-contato {
     background-color: #F3610F;
     border: 0px;
     box-shadow: 0px 0px 5px 1px #cc4c0c5b;
     cursor: pointer;
     letter-spacing: 2px;
 }
+
 button:hover {
     transition: .2s;
     box-shadow: 0px 0px 8px #F3610F;
     transform: scale(1.05);
-} 
+}
 
-.botao-curriculo{
+.botao-curriculo {
     background-color: #0D171F;
     border: 4px solid #F3610F;
     box-shadow: 0px 0px 5px 1px #F3610F5b;
@@ -110,7 +110,7 @@ button:hover {
     letter-spacing: 2px;
 }
 
-.skills{
+.skills {
     margin-top: 80px;
     background-color: #121F28;
     height: 170px;
@@ -121,7 +121,6 @@ button:hover {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 0px;
 }
 
 img {
@@ -132,29 +131,22 @@ img {
 
 .parte3 {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-between;
-    /* align-items: center; */
-    margin-top: 133px; 
-    /* flex-wrap: wrap; */
+    margin-top: 133px;
 }
 
-.card{
-    /* margin: 0 300px; */
-    /* margin-top: 185px; */
-    /* margin-bottom: 0px;
-    padding-bottom: 0px; */
-    /* width: 100%; */
-    width: calc(48% - 150px); /* 48% da largura disponível, menos 20px para o espaçamento */
+.card {
     margin-top: 66px;
+    margin-right: 400px;
 }
 
-.sobre-mim{
+.sobre-mim {
     font-family: 'Poppins';
     font-size: 40px;
     font-weight: 500;
     margin-bottom: 60px;
 }
+
 .descricao {
     margin-top: 55px;
     width: 700px;
@@ -164,45 +156,51 @@ img {
     font-weight: 400;
 }
 
+.projetos-botao {
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 55px;
+    margin-bottom: -15px;
+}
+
 .link-projetos {
-    /* margin: 0 430px; */
-    /* margin-top: 177px; */
-    /* width: 678px; */
     width: 700px;
     height: 630px;
     background-color: #121F28;
     border-radius: 60px;
     position: relative;
-    width: calc(60% - 20px);
-    margin-left: 370px;
-    margin-top: -50px;
-    /* position: relative; */
+    margin-left: 420px;
+    margin-top: 60px;
 }
+
 .link-projetos:hover {
     transition: .2s;
     box-shadow: 0px 0px 20px 0px #070f144d;
     transform: scale(1.05);
-} 
+}
 
 .projetos {
     font-family: 'Poppins';
     font-size: 40px;
     font-weight: 500;
-    margin: 55px;
-    margin-bottom: -15px;
-    /* margin-bottom: 30px; */
+    margin-left: 55px;
+    margin-top: -58px;
 }
 
 .imagem-terminal {
-    padding-top: 8px;
-    width: 550px;
-    height: 40vh;
+    padding-top: 0px;
+    width: 700px;
+    height: 483px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 69px;
-    margin-bottom: -90px;
+    margin-left: 4px;
     position: relative;
+}
+
+.link-more-detais {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .botao-mais-detalhes {
@@ -221,7 +219,7 @@ img {
     border-radius: 100%;
     position: absolute;
     top: 50px;
-    right:60px;
+    right: 60px;
 }
 
 .arrow {
@@ -230,13 +228,13 @@ img {
     margin-top: -12px;
 }
 
-footer{
+footer {
     margin-top: 150px;
     background-color: #121F28;
-    height: 300px;
+    height: 260px;
 }
 
-.redes-sociais img{
+.redes-sociais img {
     margin: 0px;
     padding: 0px;
     width: 60px;
@@ -249,7 +247,9 @@ footer{
     justify-content: center;
 }
 
-.github-botao, .linkedin-botao, .instagram-botao {
+.github-botao,
+.linkedin-botao,
+.instagram-botao {
     width: 98px;
     height: 98px;
     border-radius: 100%;
@@ -259,13 +259,15 @@ footer{
     box-shadow: 0px 0px 5px 1px #070f144d;
 }
 
-.github-icon, .linkedin-icon, .instagram-icon{
+.github-icon,
+.linkedin-icon,
+.instagram-icon {
     position: absolute;
     top: -55px;
     right: -41px;
 }
 
-.direitos-reservados{
+.direitos-reservados {
     color: #919699;
     text-align: center;
 }

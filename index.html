@@ -1,30 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriel M</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header id="header" class="header">
         <p class="nome-destaque-header">Gabriel Mascarenhas</p>
         <nav class="menu-desktop">
             <ul>
-                <a href="#header">
-                    <li>Início</li>
-                </a>
-                <a href="#skills">
-                    <li>Sobre Mim</li>
-                </a>
-                <a href="#skills">
-                    <li>Projetos</li>
-                </a>
-                <a class="link-contato" href="mailto:contatogabrielcmascarenhas@gmail.com">
-                    <li>Contato</li>
-                </a>
+                <li><a href="#header">Início</a></li>
+                <li><a href="#skills">Sobre Mim</a></li>
+                <li><a href="#skills">Projetos</a></li>
+                <li><a href="mailto:contatogabrielcmascarenhas@gmail.com">Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -33,10 +23,11 @@
         <h2>Olá, eu sou o <span style="font-weight: 500;">Gabriel</span><span
                 style="color: #F3610F; font-size: 36px; font-weight:700;">.</span></h2>
         <h1>Estudante de Programação</h1>
-        <a href="mailto:contatogabrielcmascarenhas@gmail.com" target="_blank"><button
-                class="botao-contato">CONTATO</button></a>
-        <a href="assets/currículo-pronto.pdf" target="_blank"><button class="botao-curriculo">CURRÍCULO</button></a>
+        <button class="botao-contato"><a href="mailto:contatogabrielcmascarenhas@gmail.com"
+                target="_blank">CONTATO</a></button>
+        <button class="botao-curriculo"><a href="assets/currículo-pronto.pdf" target="_blank">CURRÍCULO</a></button>
     </section>
+
     <section id="skills" class="skills">
         <section class="imagens">
             <img src="assets/html.svg" alt="html">
@@ -46,44 +37,40 @@
             <img src="assets/java.svg" alt="java">
         </section>
     </section>
+
     <section class="parte3">
-        <a href="#" class="projetos-botao">
-            <div class="link-projetos">
+        <div class="link-projetos">
+            <a href="https://linktr.ee/gabrielcmascarenhas" target="_blank" class="projetos-botao">
                 <h2 class="projetos">Projetos</h2>
                 <img class="imagem-terminal" src="assets/terminal.svg" alt="terminal">
                 <div class="circulo-botao">
                     <img class="arrow" src="assets/Arrow.svg" alt="seta">
                 </div>
-            </div>
-        </a>
-
+            </a>
+        </div>
         <div class="card">
             <h2 class="sobre-mim">Sobre Mim</h2>
             <p class="descricao">Sou estudante de Ciência da Computação da Atitus - PF, atualmente no segundo semestre.
-                Estou me dedicando a construir uma sólida base em programação. <br><br>
+                Estou me dedicando a construir uma sólida base em programação.<br><br>
                 Busco, em seguida, me especializar na área de cybersecurity, na busca por entender a fundo os desafios e
-                soluções relacionadas à segurança. <br><br>
+                soluções relacionadas à segurança.<br><br>
                 Sempre fui uma pessoa curiosa e gosto compreender o mundo ao redor sob outra ótica.
             </p>
-            <button class="botao-mais-detalhes">MAIS DETALHES</button>
+            <a class="link-more-detais" href="maisdetalhes/maisdetalhes.html"><button class="botao-mais-detalhes">MAIS
+                    DETALHES</a></button>
         </div>
     </section>
+
     <footer>
         <div class="redes-sociais">
-            <a href="https://github.com/GabrielCMascarenhas" target="_blank">
-                <div class="github-botao"><img class="github-icon" src="assets/github.svg" alt="github"></div>
-            </a>
-            <a href="https://instagram.com/gmascarenhas8" target="_blank">
-                <div class="instagram-botao"><img class="instagram-icon" src="assets/instagram.svg" alt="instagram">
-                </div>
-            </a>
-            <a href="https://www.linkedin.com/in/perfil-gabriel" target="_blank">
-                <div class="linkedin-botao"><img class="linkedin-icon" src="assets/linkedin.svg" alt="linkedin"></div>
-            </a>
+            <div class="github-botao"><a href="https://github.com/GabrielCMascarenhas" target="_blank"><img
+                        class="github-icon" src="assets/github.svg" alt="github"></a></div>
+            <div class="instagram-botao"><a href="https://instagram.com/gmascarenhas8" target="_blank"><img
+                        class="instagram-icon" src="assets/instagram.svg" alt="instagram"></a></div>
+            <div class="linkedin-botao"><a href="https://www.linkedin.com/in/perfil-gabriel" target="_blank"><img
+                        class="linkedin-icon" src="assets/linkedin.svg" alt="linkedin"></a></div>
         </div>
         <p class="direitos-reservados">&copy; 2024 Gabriel Mascarenhas. Todos os direitos reservados.</p>
     </footer>
-
 </body>
-
 </html>
